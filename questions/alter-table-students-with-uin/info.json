@@ -1,0 +1,15 @@
+{
+  "uuid": "2c518f65-5000-4dce-a999-e0f1ea418762",
+  "title": "Alter students with UIN column",
+  "topic": "SQL Queries",
+  "type": "v3",
+  "singleVariant": true,
+  "gradingMethod": "External",
+  "externalGradingOptions": {
+      "enabled": true,
+      "image": "mysql-test:latest",
+      "serverFilesCourse": ["sql-grader/"],
+      "entrypoint": "/grade/serverFilesCourse/sql-grader/run.sh",
+      "timeout": 20
+  }
+}
